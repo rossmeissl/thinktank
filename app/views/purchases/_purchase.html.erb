@@ -1,0 +1,14 @@
+        <dl>
+          <dt>Date</dt>
+          <dd class="date">7/<%= purchase.date %>/2010</dd>
+          <dt>Amount</dt>
+          <dd class="amount">$<%= purchase.amount %></dd>
+          <dt>Description</dt>
+          <dd class="description">
+            <h3><%= purchase.vendor %> #<%= purchase.store %> <%= purchase.city %></h3>
+            <p><%= purchase.volume %> gal <%= purchase.fuel_type %></p>
+          </dd>
+          <dt>Estimate URL</dt>
+          <dd class="url">http://carbon.brighterplanet.com/fuel_purchases.txt</dd>
+        </dl>
+
