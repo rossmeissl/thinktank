@@ -1,3 +1,3 @@
-Greenbac::Application.routes.draw do |map|
+Thinktank::Application.routes.draw do |map|
   root :to => "bills#new"
 end
