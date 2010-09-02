@@ -35,6 +35,6 @@ class Purchase
   end
   
   def self.fuel_type
-    %w(Diesel Gasoline).sample
+    FuelType.new
   end
 end
