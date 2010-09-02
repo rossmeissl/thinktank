@@ -9,6 +9,6 @@
             <p><%= purchase.volume %> gal <%= purchase.fuel_type %></p>
           </dd>
           <dt>Estimate URL</dt>
-          <dd class="url">http://carbon.brighterplanet.com/fuel_purchases.txt?fuel_type=<%= purchase.fuel_type.fancy_name %>&amp;volume=<%= purchase.volume %></dd>
+          <dd class="url">http://carbon.brighterplanet.com/fuel_purchases.txt?fuel_type=<%= purchase.fuel_type.fancy_name %>&amp;volume=<%= purchase.volume.gallons.to(:litres) %></dd>
         </dl>
 
