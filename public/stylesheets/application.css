@@ -157,7 +157,7 @@ pre, kbd {
 .bill ol li>a {
   position: absolute;
   right: 260px;
-  background: #778276;
+  background: #983918;
   width: 20px;
   display: block;
   padding: 10px;
@@ -198,7 +198,7 @@ pre, kbd {
   width: 290px;
   margin: 15px 0 0;
   font-size: 11px;
-  color: gray;
+  color: #983918;
 }
 
 .bill ol li>p a {
