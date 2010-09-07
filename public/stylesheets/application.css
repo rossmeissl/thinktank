@@ -70,10 +70,14 @@ pre, kbd {
   font-family: "DejaVu Mono", monospace;
 }
 
+a {
+  outline: none;
+}
+
 #header {
-  background: #e69579 url(images/car.png) no-repeat 30px 20px;
-  padding: 30px 0 0;
-  min-height: 80px;
+  background: #e69579 url(images/can.png) no-repeat 30px 10px;
+  padding: 40px 0 0;
+  min-height: 75px;
   color: #983918;
   text-shadow: 1px 1px 0 rgba(255,255,255,0.2);
 }
@@ -91,6 +95,27 @@ pre, kbd {
 #content {
   background: #e69579;
   padding: 0 0 40px;
+}
+
+#reload {
+  position: absolute;
+  right: 10px;
+  width: 280px;
+  margin: 10px 0 0;
+}
+
+#reload a {
+  display: block;
+  padding: 0 0 0 27px;
+  background: url(images/arrows.png) no-repeat 0 50%;
+  line-height: 20px;
+  color: #983918;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#reload a:hover {
+  text-decoration: underline;
 }
 
 .bill {
